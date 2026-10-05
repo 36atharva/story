@@ -147,4 +147,4 @@ docs: define story framework
 
 The project is currently in product definition and MVP setup.
 
-Do not begin implementing product features unless explicitly instructed.
+Do not begin implementing product features unless explicitly instructed.s
