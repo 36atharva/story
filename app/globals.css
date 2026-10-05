@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f1e8;
+  --foreground: #12372a;
+  --green-dark: #08281c;
+  --green: #0f4a32;
+  --green-light: #1b6042;
+  --cream: #f5f1e8;
+  --cream-dark: #eae3d5;
+  --muted: #68736b;
+  --border: #d8d2c6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--green);
+  color: var(--cream);
+}
+
+.font-editorial {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+}
+/* .font-editorial {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+} */
